@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <ul class="main">
+            <li>
+                <a href="#">Головна</a> 
+            </li>
+            <li>
+               <p>Про компанію</p> 
+            </li>
+            <li class="spacilLi">
+                <p onclick="openModal(0)">Послуги</p>
+                <ul class="sub_main">
+                    <li>
+                        <a href="">Енергетичний консалдінг</a>
+                    </li>
+                    <li class="sub_main_li" >
+                        <div onclick="openModal(1)">
+                            <span class="p">Постачання електроенергії</span> 
+                            <span class="spanLine">-</span>
+                        </div>
+                        <ul class = "sub_sub_main">
+                            <li class="sub_sub_main_li">
+                                <div onclick="openModal(2)">
+                                    <span class="span">Інформація для споживачів</span>
+                                    <span class="spanLine">-</span>
+                                </div>
+
+                                <ul class="sub_sub_sub_main">
+                                    <li>
+                                        <a href="">Тарифи на розподіл</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Законодавство</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Приклад рахунку</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="">Законодавство</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">Будівництво  СЕС</a>
+                    </li>
+                    <li>
+                        <a href="">Енергетичний аудит</a>
+                    </li>
+                    <li>
+                        <a href="">Система обліку електроенергії</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Новини</a>
+            </li>
+            <li>
+                <a href="#">Контакти</a>
+            </li>
+        </ul>
+    </header>
+    <script src="script.js"></script>
+</body>
+</html>
